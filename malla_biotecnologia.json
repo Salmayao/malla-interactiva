@@ -1,0 +1,418 @@
+{
+    "nombre": "Malla de Biotecnología (UDLA)",
+    "asignaturas": [
+        {
+            "codigo": "EIN512B",
+            "nombre": "Computación Aplicada",
+            "semestre": 1,
+            "categoria": "Electronica e informatica",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "EFI138-T",
+            "nombre": "Educación Física I",
+            "semestre": 1,
+            "categoria": "Ciencias",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "MAT100-B",
+            "nombre": "Fundamento De La Matematica",
+            "semestre": 1,
+            "categoria": "Ciencias",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "HCW100-T",
+            "nombre": "Inglés I",
+            "semestre": 1,
+            "categoria": "Ciencias",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA002-B",
+            "nombre": "Laboratorio De Química General",
+            "semestre": 1,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA003-B",
+            "nombre": "Química General",
+            "semestre": 1,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA006-B",
+            "nombre": "Biología Celular",
+            "semestre": 2,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "HCW101-T",
+            "nombre": "Ingles Ii",
+            "semestre": 2,
+            "categoria": "Ciencias",
+            "prerrequisitos": [
+                "HCW100-T"
+            ]
+        },
+        {
+            "codigo": "ING001-B",
+            "nombre": "Introducción A La Ingeniería",
+            "semestre": 2,
+            "categoria": "Dirección general de docencia ",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "MAT009-B",
+            "nombre": "Introducción Al Cálculo",
+            "semestre": 2,
+            "categoria": "Ciencias",
+            "prerrequisitos": [
+                "MAT100-B"
+            ]
+        },
+        {
+            "codigo": "QMA005-B",
+            "nombre": "Laboratorio De Química Cuantitativa",
+            "semestre": 2,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA002-B"
+            ]
+        },
+        {
+            "codigo": "QMA004-B",
+            "nombre": "Química Cuantitativa",
+            "semestre": 2,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA003-B"
+            ]
+        },
+        {
+            "codigo": "QMA007-B",
+            "nombre": "Análisis Instrumental",
+            "semestre": 3,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA005-B"
+            ]
+        },
+        {
+            "codigo": "QMA010B",
+            "nombre": "Bioquímica",
+            "semestre": 3,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA006-B"
+            ]
+        },
+        {
+            "codigo": "QMA009-B",
+            "nombre": "Elementos De Fisicoquímica",
+            "semestre": 3,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "ING001-B"
+            ]
+        },
+        {
+            "codigo": "HCW102-T",
+            "nombre": "Ingles Iii",
+            "semestre": 3,
+            "categoria": "Ciencias",
+            "prerrequisitos": [
+                "HCW101-T"
+            ]
+        },
+        {
+            "codigo": "FIS009B",
+            "nombre": "Introducción A La Física",
+            "semestre": 3,
+            "categoria": "Ciencias",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "MAT030B",
+            "nombre": "Matematica De La Ingenieria",
+            "semestre": 3,
+            "categoria": "Ciencias",
+            "prerrequisitos": [
+                "MAT009-B"
+            ]
+        },
+        {
+            "codigo": "GDEOO6-B",
+            "nombre": "Administración De Empresas",
+            "semestre": 4,
+            "categoria": "Ingeniería comercial",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA012-B",
+            "nombre": "Biología Molecular",
+            "semestre": 4,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA010B"
+            ]
+        },
+        {
+            "codigo": "QMA013-B",
+            "nombre": "Ciencias De La Ingeniería I: Termodinámica",
+            "semestre": 4,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "FIS007B",
+            "nombre": "Fisica Mecanica",
+            "semestre": 4,
+            "categoria": "Ciencias",
+            "prerrequisitos": [
+                "MAT100-B",
+                "FIS009B"
+            ]
+        },
+        {
+            "codigo": "QMA011-B",
+            "nombre": "Introducción A Las Operaciones Unitarias En Bioprocesos",
+            "semestre": 4,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA009-B"
+            ]
+        },
+        {
+            "codigo": "GDE005-B",
+            "nombre": "Tecnologías De La Información Y Comunicaciones",
+            "semestre": 4,
+            "categoria": "Electronica e informatica",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA015-B",
+            "nombre": "Bionformática",
+            "semestre": 5,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA014-B",
+            "nombre": "Ciencias De La Ingeniería Ii: Balance De Materia Y Energía",
+            "semestre": 5,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA013-B"
+            ]
+        },
+        {
+            "codigo": "MAT006-B",
+            "nombre": "Estadistica",
+            "semestre": 5,
+            "categoria": "Ciencias",
+            "prerrequisitos": [
+                "MAT030B"
+            ]
+        },
+        {
+            "codigo": "GDE002-B",
+            "nombre": "Gestión De La Innovación",
+            "semestre": 5,
+            "categoria": "Dirección general de docencia ",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "GDE008-B",
+            "nombre": "Introducción A Las Finanzas",
+            "semestre": 5,
+            "categoria": "Dirección general de docencia ",
+            "prerrequisitos": [
+                "GDEOO6-B"
+            ]
+        },
+        {
+            "codigo": "QMA018-B",
+            "nombre": "Laboratorio De Microbiología",
+            "semestre": 5,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA010B"
+            ]
+        },
+        {
+            "codigo": "QMA016-B",
+            "nombre": "Microbiología Y Virología",
+            "semestre": 5,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA010B"
+            ]
+        },
+        {
+            "codigo": "QMA022-B",
+            "nombre": "Buenas Prácticas De Laboratorio De Ensayo (Bpl)",
+            "semestre": 6,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA019-B",
+            "nombre": "Ciencias De La Ingeniería Iii: Procesos De Transporte",
+            "semestre": 6,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA014-B"
+            ]
+        },
+        {
+            "codigo": "GDE003-B",
+            "nombre": "Gestión Del Emprendimiento",
+            "semestre": 6,
+            "categoria": "Dirección general de docencia ",
+            "prerrequisitos": [
+                "GDE008-B",
+                "GDE002-B"
+            ]
+        },
+        {
+            "codigo": "GDE007-B",
+            "nombre": "Responsabilidad Social Empresarial Y Ética Laboral",
+            "semestre": 6,
+            "categoria": "Estudios Humanisticos",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "GDE004-B",
+            "nombre": "Sistemas Integrados De Gestión",
+            "semestre": 6,
+            "categoria": "Dirección general de docencia ",
+            "prerrequisitos": [
+                "MAT006-B",
+                "GDEOO6-B"
+            ]
+        },
+        {
+            "codigo": "QMA021-B",
+            "nombre": "Técnicas Biomédicas Y Farmacéuticas",
+            "semestre": 6,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA018-B",
+                "QMA016-B"
+            ]
+        },
+        {
+            "codigo": "QMA020-B",
+            "nombre": "Técnicas Inmunológicas Y Moleculares",
+            "semestre": 6,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA015-B",
+                "QMA012-B"
+            ]
+        },
+        {
+            "codigo": "QMA024-B",
+            "nombre": "Buenas Prácticas De Manufactura Y Haccp",
+            "semestre": 7,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "EFI101T",
+            "nombre": "Educación Física Ii",
+            "semestre": 7,
+            "categoria": "Ciencias",
+            "prerrequisitos": [
+                "EFI138-T"
+            ]
+        },
+        {
+            "codigo": "GDE001-B",
+            "nombre": "Gestión De Proyectos",
+            "semestre": 7,
+            "categoria": "Dirección general de docencia ",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA023-B",
+            "nombre": "Humanidades I: Taller De Ideación Y Creatividad",
+            "semestre": 7,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "GDE002-B"
+            ]
+        },
+        {
+            "codigo": "QMA025-B",
+            "nombre": "Instrumentación En Bioprocesos",
+            "semestre": 7,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA026-B",
+            "nombre": "Laboratorio De Pcr I",
+            "semestre": 7,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA020-B"
+            ]
+        },
+        {
+            "codigo": "QMA027-B",
+            "nombre": "Seminario De Título",
+            "semestre": 7,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA034-B",
+            "nombre": "Humanista Ii: Liderazgo Y Trabajo En Equipo",
+            "semestre": 8,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": []
+        },
+        {
+            "codigo": "QMA030-B",
+            "nombre": "Laboratorio De Pcr Ii",
+            "semestre": 8,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA026-B"
+            ]
+        },
+        {
+            "codigo": "QMA031-B",
+            "nombre": "Proyecto De Título",
+            "semestre": 8,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA027-B"
+            ]
+        },
+        {
+            "codigo": "QMA029-B",
+            "nombre": "Taller De Biorreactores",
+            "semestre": 8,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA025-B"
+            ]
+        },
+        {
+            "codigo": "QMA028-B",
+            "nombre": "Taller Integrado De Ingeniería",
+            "semestre": 8,
+            "categoria": "Química y medio ambiente",
+            "prerrequisitos": [
+                "QMA023-B"
+            ]
+        }
+    ]
+}
